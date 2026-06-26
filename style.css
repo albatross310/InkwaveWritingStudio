@@ -113,7 +113,7 @@ main { flex: 1; }
 }
 
 .hero-bar {
-  width: 180px;
+  width: 126px;
   height: 4px;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--purple), var(--light));
