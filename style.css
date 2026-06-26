@@ -217,7 +217,7 @@ main { flex: 1; }
 }
 
 .prose-page .page-bar {
-  width: 40px;
+  width: 200px;
   height: 3px;
   background: linear-gradient(90deg, var(--purple), var(--light));
   border-radius: 2px;
