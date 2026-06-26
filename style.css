@@ -6,9 +6,9 @@
   --ink:    #1a1630;
   --purple: #4a2d8a;
   --light:  #7a52bc;
-  --muted:  #7a7490;
-  --bg:     linear-gradient(140deg, #dbd8f0 0%, #eceaf8 45%, #e8f0f8 100%);
-  --card:   rgba(255,255,255,0.55);
+  --muted:  #6a6480;
+  --bg:     linear-gradient(135deg, #fbfaf6 0%, #ede8f0 40%, #c8d4e8 100%);
+  --card:   rgba(255,255,255,0.5);
   --border: rgba(74,45,138,0.12);
 }
 
@@ -87,16 +87,16 @@ main { flex: 1; }
 }
 
 .logo {
-  border-radius: 50%;
-  box-shadow: 0 6px 32px rgba(74,45,138,0.2), 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 7vw, 3.8rem);
+  font-size: clamp(1.8rem, 3.8vw, 2.8rem);
   font-weight: 300;
   color: var(--ink);
   letter-spacing: -0.02em;
   line-height: 1.1;
+  white-space: nowrap;
 }
 
 .hero h1 em {
@@ -105,16 +105,15 @@ main { flex: 1; }
 }
 
 .tagline {
-  font-size: clamp(0.9rem, 2.5vw, 1.05rem);
+  font-size: clamp(0.95rem, 1.55vw, 1.12rem);
   color: var(--muted);
   font-weight: 300;
-  max-width: 600px;
   white-space: nowrap;
   line-height: 1.55;
 }
 
 .hero-bar {
-  width: 64px;
+  width: 180px;
   height: 4px;
   border-radius: 2px;
   background: linear-gradient(90deg, var(--purple), var(--light));
