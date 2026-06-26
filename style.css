@@ -293,6 +293,10 @@ main { flex: 1; }
   box-shadow: 0 0 0 3px rgba(74,45,138,0.08);
 }
 
+.contact-page .page-bar {
+  width: 130px;
+}
+
 .contact-alt {
   font-size: 0.8rem;
   color: var(--muted);
