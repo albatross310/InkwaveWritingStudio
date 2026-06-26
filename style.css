@@ -188,7 +188,7 @@ main { flex: 1; }
 }
 
 .product-link {
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--purple);
   text-decoration: none;
   font-weight: 500;
