@@ -7,7 +7,7 @@
   --purple: #4a2d8a;
   --light:  #7a52bc;
   --muted:  #6a6480;
-  --bg:     linear-gradient(135deg, #fbfaf6 0%, #ede8f0 40%, #c8d4e8 100%);
+  --bg:     linear-gradient(170deg, #fbfaf6 0%, #ede8f0 45%, #d8e8f8 100%);
   --card:   rgba(255,255,255,0.5);
   --border: rgba(74,45,138,0.12);
 }
